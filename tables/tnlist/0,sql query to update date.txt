@@ -1,0 +1,9 @@
+Use this after importing from csv from excel. 
+2014-06-09
+
+paste into sql box of phpymadmin:
+
+
+update `tnlist` set date_done=null  WHERE date_done=0000-00-00;
+update `tnlist` set issues_when=null  WHERE issues_when=0000-00-00;
+update `tnlist` set actions_when_target=null  WHERE actions_when_target=0000-00-00;
